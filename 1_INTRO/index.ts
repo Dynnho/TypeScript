@@ -1,11 +1,11 @@
-const firstName = "Sidnei"
-const anotherName = 1
-const x = true
+const firstName = "Matheus";
+const anotherName = 1;
+const x = true;
 
 function greeting(name: string) {
-    console.log("olá " + name)
+  console.log("Olá, " + name);
 }
 
-greeting(firstName)
-// greeting(anothertName)
+greeting(firstName);
+// greeting(anotherName)
 // greeting(x)
